@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="a.css" />
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <div class="container">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <input type="text" id="description" placeholder="Enter the description" />
+      <input type="date" id="dateInput" />
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <div id="listy">
+      <button id="clearme" onclick="clearTasks()">CLEAR ALL</button>
+      <h1>TASK LISTS</h1>
+      <ol id="taskList"></ol>
+      <script src="b.js"></script>
+    </div>
+  </body>
+</html>
